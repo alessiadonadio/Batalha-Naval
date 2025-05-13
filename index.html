@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalha Naval</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚢 Batalha Naval</h1>
+  <div class="boards">
+    <div>
+      <h3>Seu Tabuleiro</h3>
+      <div id="player-board" class="board"></div>
+    </div>
+    <div>
+      <h3>Tabuleiro Inimigo</h3>
+      <div id="computer-board" class="board"></div>
+    </div>
+  </div>
+ <p id="status">Clique no tabuleiro inimigo para atacar.</p>
+<button id="restart-btn" style="display: none;">🔁 Nova Partida</button>
+
+  <!-- Biblioteca de confete -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+
+  <footer>
+    <p>&copy; Batalha Naval . Todos os direitos reservados.</p>
+    <p>Desenvolvido por Alessia Donadio</p>
+  </footer>
+</body>
+</html>
